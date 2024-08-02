@@ -1,0 +1,193 @@
+
+body{
+  
+    background-image: url("https://assets.codepen.io/6060109/waves.png");
+  }
+  
+   body, html {
+    margin: 0;
+    font-family: "AdiHaus Regular";
+    display: flex;
+   
+  }
+  
+  .all{
+    height: 100vh;
+  }
+  
+  .adidas-logo{
+    display: flex;
+    justify-content: center;
+    margin: 2.5% 0;
+  }
+  
+  .hero-image{
+    display: flex;
+    justify-content: center;
+    height: 225px;
+    margin-top: 25px;
+  }
+  
+  .athlete-image{
+    background-image: url("https://assets.codepen.io/6060109/mobile-shoes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-position: right 35% bottom 35%;
+    height: 100%;
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .info-content-wrapper{
+    margin: 2.5% 10% ;
+  }
+  
+  
+  .text-content{
+    text-align: center;
+    /*margin: 10% 3% 0 3%;*/
+  }
+  
+  h2{
+    margin: 2.5% 0;
+    font-size: 48px;
+    letter-spacing: 3px;
+  }
+  
+  .text-content :nth-child(1){
+    color: #2F80ED;
+    font-weight: 100;
+    position: relative;
+  }
+  
+  .coming-soon{
+    color: #423A3A;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  p{
+    line-height: 28px;
+    color:#333333;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+  
+  form{
+    display: flex;
+    justify-content: center;
+    /*margin: 5% 0 10% 0%;*/
+    max-width: 500px;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  .text-input{
+    padding: 0 30px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 70%;
+    font-family: "AdiHaus Regular";
+    font-size: 14px;
+    color: #828282;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .submit-input{
+    box-sizing: border-box;
+    height: 50px;
+    width: 17.5%;
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    background: rgb(101,101,102);
+    background: linear-gradient(131deg, rgba(101,101,102,1) 26%, rgba(0,0,0,1) 100%);
+    border-radius: 0 5px 5px 0;
+    border: none;
+    padding-bottom: 5%;
+    
+  }
+  
+  .dektop-image{
+    display: none;
+  }
+  
+  @media only screen and (min-width: 1025px) {
+  
+    .hero-image{
+      display: none;
+    }
+    
+    body{
+      
+      background-image: url("https://assets.codepen.io/6060109/waves.png");
+      /*background-size: auto;
+      background-repeat: no-repeat;
+      */
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      margin:0;
+      padding: 0;
+      
+    }
+    
+    .all{
+      width: 40%;
+      margin: 0% 7.5% 3.5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+  
+    .info-content-wrapper{
+      margin: 0;
+      margin-bottom: 15%;
+    }
+  
+    .text-content{
+      text-align: left; 
+      padding: 0;
+      margin: 0 10px 0 0;
+    }
+  
+  
+    .text-content :first-child {
+      margin: 0;
+    }
+    
+    .dektop-image{
+      display: block;
+      width: 50%;
+      margin: 0;
+      background-image: url("https://assets.codepen.io/6060109/shoes.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height:100%; 
+      
+  }
+    
+  .adidas-logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10% ;
+  }  
+  
+  p, .text-input{
+    font-size: 17.5px;
+  }
+    
+    form{
+      
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      font-size: 17.5px;
+      margin-left: 0%;
+    }
+  }
+  
+  
